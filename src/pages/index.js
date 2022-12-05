@@ -26,6 +26,7 @@ const IndexPage = () => (
       <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
       <Link to="/using-dsg">Go to "Using DSG"</Link>
     </p>
+    <pre>{JSON.stringify(process.env, undefined, 2)}</pre>
   </Layout>
 )
 
